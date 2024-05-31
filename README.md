@@ -27,7 +27,7 @@ This challenge presented a photo that a threat actor took at a restaurant somewh
 
 I probably jumped the gun on this and immediately thought "look at the metadata for gps!" what again, was far too simple. I ran exiftool on the image revealing all the good metadata we expect with all the location related data stripped away. So then I decided that a more creative solution would be required using actual open-source intelligence. So my first move was to look at the image a little closer, revealing the name "Paul" on the mug. Then, upon noticing common structures uniquely tied to locations in the United States (i.e. crosswalks, traffic lights, signs, etc) I decided that wherever the culprit was must be within the states somewhere.
 
-Having spent time in Europe I immediately identified the food on the table as European and that the drink looked somewhat like a coffee. So I queried Google for Paul's Cafe which immediately gave me three different locations, all within the proximity of Washington D.C. I next used Google Maps to compare the photo to the street view of each location, pinpointing the exact address as 1275 K St NW, Washington D.C.
+Having spent time in Europe I immediately identified the food on the table as some type of European pastry or dish and that the drink looked somewhat like a coffee. So I queried Google for Paul's Cafe which immediately gave me three different locations, all within the proximity of Washington D.C. I next used Google Maps to compare the photo to the street view of each location, pinpointing the exact address as 1275 K St NW, Washington D.C. Fin.
 
 ![image](https://github.com/mpmatusek/DoDCyberSentinelChallenge/assets/167713753/39ee6589-d0ac-4085-b330-a45a7e5a8586)
 
