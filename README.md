@@ -32,3 +32,10 @@ Having spent time in Europe I immediately identified the food on the table as so
 ![image](https://github.com/mpmatusek/DoDCyberSentinelChallenge/assets/167713753/39ee6589-d0ac-4085-b330-a45a7e5a8586)
 
 
+<h2>Other Challenges:</h2>
+
+I made progress on at least three other challenges during this CTF but never got around to obtaining the flags. Some of the other challenges I tried included the Header Hinterlands challenge, Filing Problem challenga, and Exfil. As I said before I made pretty good progress as far as I could tell, but ultimately I did not walk away with any of the associated flags.
+
+<h2>Conclusion:</h2>
+
+At the end of the day I was very happy with what I was able to accomplish. I've spent my entire life surrounded by technology and I've utilized technology in many different ways. As I continue to enhance my knowledge of cybersecurity and the tools we utilize to secure infrastructure I realize just how much more I have to learn. I will be attempting the CTF event next Fall and hope to improve upon what I accomplished during this one. I know things will be different and I also know that I have a lot to learn about the different tools and approaches that should be utilized in order to solve these fun and challenging tasks.
