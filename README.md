@@ -34,7 +34,7 @@ Having spent time in Europe I immediately identified the food on the table as so
 
 <h2>Other Challenges:</h2>
 
-I made progress on at least three other challenges during this CTF but never got around to obtaining the flags. Some of the other challenges I tried included the Header Hinterlands challenge, Filing Problem challenga, and Exfil. As I said before I made pretty good progress as far as I could tell, but ultimately I did not walk away with any of the associated flags.
+I made progress on at least three other challenges during this CTF but never got around to obtaining the flags. Some of the other challenges I tried included the Header Hinterlands challenge, Filing Problem challenga, Targeting challenge, and the Exfil challenge. I won't go into all the details on this page, maybe in at a future time I will elaborate on my strategies, but for now I will conclude by saying that I made pretty good progress as far as I could tell, but ultimately I did not walk away with any of the associated flags.
 
 <h2>Conclusion:</h2>
 
