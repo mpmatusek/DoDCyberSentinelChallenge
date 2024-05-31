@@ -11,6 +11,18 @@ I spent a fair amount of time at the beginning making sure all of my tools in Ka
 
 <h2>Challenge 1: Printer</h2>
 
-This challenge involved a ticket where an end-user needed access to the control panel of a printer hosted on a server. The end-user had forgotten their password and requested our help to retrieve it. Initially, I considered using a brute force method to crack the password. I tried several common usernames like "Admin", "Admins", and "admin" with various passwords from a wordlist I found through a quick Google search [Word List](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt).
+This challenge involved a ticket where an end-user needed access to the control panel of a printer hosted on a server.  The end-user had forgotten their password and requested our help to retrieve it. The web app hosted at https://web-printer-t34jla4lcq-uc.a.run.app redirected users to a login page and it was our task to discover and login to the app. Initially, I considered using a brute force method to crack the password. I tried several common usernames like "Admin", "Admins", and "admin" with various passwords from a wordlist I found through a quick Google search [Word List](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt).
 
 Despite these efforts, I realized brute force was too obvious and time-consuming, prompting me to explore alternative methods. Consulting AI about common password issues on web pages reminded me of the robots.txt file, which can sometimes expose sensitive directories. I navigated to the robots.txt file of the web application and discovered it listed a notes.txt directory. Accessing this directory revealed the administrator password. Using this password, I gained access to the control panel and successfully completed the task, marking the discovery of my first flag.
+
+<h2>Challenge 2: Ephemeral</h2>
+
+This one was pretty clear to me. I don't remember all the technical details, suffice it to say an attacker was using ephemeral ports to do some dirty business to the victim in question. The first part of this challenge required the ephemeral port discovery which was easily done (but time consuming) using nmap -Pn -p- -T4 34.31.144.172 which revealed the ephemeral port 51147. I then ran a simple curl 34.31.144.172 51147 which immediately gave the required flag. Fin.
+
+<h2>Challenge 3: Have you Bean here before?</h2>
+
+This challenge presented a photo that a threat actor took at a restaurant somewhere. Using open-source intelligence it was our task to identify where the threat actor was located based on the image shown below.
+
+![photo](https://github.com/mpmatusek/DoDCyberSentinelChallenge/assets/167713753/5ffe5c3d-007f-47b2-b9e6-7e9ae8edddf5)
+
+I probably jumped the gun on this and immediately thought "look at the metadata for gps!" what again, was far too simple. I ran exiftool on the image revealing all the good metadata we expect with all the location related data stripped away.
